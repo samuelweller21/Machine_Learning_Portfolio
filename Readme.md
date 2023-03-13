@@ -1,6 +1,6 @@
 # Readme
 
-A collection of Machine Learning examples, see [www.samuelweller.com](www.samuelweller.com).
+A collection of Machine Learning examples, see [www.samuelweller.com](https://www.samuelweller.com).
 
 ## Install
 
