@@ -1,16 +1,17 @@
 # Readme
 
-## Install Venv
+A collection of Machine Learning examples, see [www.samuelweller.com](www.samuelweller.com).
+
+## Install
+
 ```
-# If not yet installed
-pip install --user virtualenv
-pip install --user ipykernel
+https://github.com/samuelweller21/Machine_Learning_Portfolio.git
+cd Machine_Learning_Portfolio
 
-# Otherwise
-myenv\Scripts\activate
-python -m ipykernel install --user --name=myenv
+# Intall [poetry](https://python-poetry.org/docs/#installing-with-the-official-installer)
+poetry shell
+poetry install
 
-# Use
-pip freeze | Out-File -Encoding UTF8 requirements.txt
-install -r requirements.txt
+# Jupyter
+python3 -m ipykernel install --user --name="MLP" --display-name="MLP"
 ```
